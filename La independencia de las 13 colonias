@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Conceptual: Independencia de las 13 Colonias</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 20px;
+    }
+    .mapa {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .nodo {
+      background: #ffffff;
+      border: 2px solid #007acc;
+      border-radius: 10px;
+      padding: 10px 20px;
+      text-align: center;
+      width: fit-content;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    }
+    .linea {
+      width: 2px;
+      height: 20px;
+      background: #007acc;
+    }
+    .ramas {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mapa Conceptual: Independencia de las 13 Colonias</h1>
+  <div class="mapa">
+    <div class="nodo"><strong>Independencia de las 13 Colonias</strong><br>1776 (EE.UU.)</div>
+    <div class="linea"></div>
+    <div class="ramas">
+      <div class="nodo">📜 Causas<br>Impuestos sin representación, Ley del Timbre, Ley del Té</div>
+      <div class="nodo">⚔️ Conflictos<br>Guerra de Independencia (1775–1783), Batalla de Saratoga</div>
+      <div class="nodo">📢 Ideas<br>Ilustración, Locke, Montesquieu, Derechos naturales</div>
+      <div class="nodo">📝 Documento clave<br>Declaración de Independencia (4 julio 1776)</div>
+      <div class="nodo">🌎 Consecuencias<br>Formación de EE.UU., inspiración para América Latina</div>
+    </div>
+  </div>
+</body>
+<confirmación>
